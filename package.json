@@ -1,0 +1,27 @@
+{
+  "name": "@zingle/mutex",
+  "version": "0.0.1",
+  "description": "functions to create mutexes for objects or values",
+  "main": "mutex.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/mutex.git"
+  },
+  "keywords": [
+    "mutual",
+    "exclusion"
+  ],
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/mutex/issues"
+  },
+  "homepage": "https://github.com/Zingle/mutex#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  }
+}
