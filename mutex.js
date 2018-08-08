@@ -14,7 +14,7 @@ function mutex(resource, timeout=Infinity) {
     if (timeout < Infinity) {
         mutex.timeout = setTimeout(() => {
             try {release();} catch (err) {}
-        });
+        }, timeout);
     }
 
     mutexes.set(resource, mutex);
